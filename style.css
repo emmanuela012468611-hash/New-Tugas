@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: grey;
+    background-color: white;
     color: #22354F;
     margin: 0;
     padding: 24px;
 }
 
 h1, h2 {
-    color: #5A6B85;
+    color: blue;
     text-align: center;
     padding: 35px;
     border-radius: 16px;
@@ -23,7 +23,7 @@ h1, h2 {
 
 .navbar a {
     text-decoration: underline;
-    color: #5A6B85;
+    color: blue;
     font-weight: bold;
 }
 
@@ -121,7 +121,7 @@ input, textarea {
     box-sizing: border-box;
     font-family: Arial;
     font-size: 15px;
-    color: #22354F;
+    color: blue;
     background-color: #F5F8FD;
     border: 1px solid #C7D4E8;
     border-radius: 10px;
@@ -146,7 +146,7 @@ button {
 
 #penutup {
     text-align: center;
-    color: #5A6B85;
+    color: blue;
     font-size: 14px;
     border-top: 1px solid #C7D4E8;
     padding-top: 20px;
