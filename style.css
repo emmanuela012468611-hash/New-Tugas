@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    color: #22354F;
+    margin: 0;
+    padding: 24px;
+}
+
+h1, h2 {
+    color: #5A6B85;
+    text-align: center;
+    padding: 35px;
+    border-radius: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: underline;
+    color: #5A6B85;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 35px;
+    padding: 24px;
+}
+
+.kartu-profil {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px #DCE5F2;
+}
+
+.kartu-profil img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.kisi-hobi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.kartu {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px #DCE5F2;
+}
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.galeri img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,td {
+    border: 1px solid #C7D4E8;
+    padding: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #E9DDF2;
+}
+
+form {
+    background-color:#FFFFFF;
+    border: 1px solid #C7D4E8;
+    border-radius: 16px;
+    padding:24px;
+    box-shadow: 0 4px 12px #DCE5F2;
+}
+
+.baris {
+    display: flex;
+    gap: 16px;
+}
+
+.baris .isian {
+    flex: 1;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 15px;
+    color: #22354F;
+    background-color: #F5F8FD;
+    border: 1px solid #C7D4E8;
+    border-radius: 10px;
+    padding: 19px 12px;
+    margin-bottom: 18px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    background-color: #A2A4DF;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+#penutup {
+    text-align: center;
+    color: #5A6B85;
+    font-size: 14px;
+    border-top: 1px solid #C7D4E8;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .kartu-profil {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .kisi-hobi,
+    .galeri {
+        grid-template-columns: 1fr;
+    }
+
+    .baris {
+        flex-direction: column;
+    }
+}
